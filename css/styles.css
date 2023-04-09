@@ -98,6 +98,12 @@ color: var(--text-color);
 }
 
 
+/* Container-page-header */
+.container-page-header {
+    width: 1158px;
+}
+    
+
 
 /* Hero image*/
 
@@ -130,6 +136,11 @@ background: var(--btn-color);
 color: var(--fond-color);
 }
 
+/* Container-hero */
+.container-hero {
+    width: 1158px;
+}
+
 
 
 /* Section 1 */
@@ -150,6 +161,15 @@ letter-spacing: 0.02em;
 color: var(--text-color);
 }
 
+/* Container-features */
+
+.container-features {
+    width: 1158px;
+}
+
+
+
+
 /* Section 2 */
 
 .our-work-header {
@@ -161,6 +181,14 @@ text-transform: capitalize;
 color: var(--accent-color);
 background-color: var(--fond-btn-color);
 }
+
+/* Container-our-work */
+.container-our-work {
+    width: 1158px;
+}
+
+
+
 
 
 /* Section-3  */
@@ -197,6 +225,13 @@ letter-spacing: 0.02em;
 color: var(--text-color);
 }
 
+/* Container-our-team */
+.container-our-team {
+    width: 1158px;
+}
+
+
+
 /* Footer */
 
 .logo-type-footer {
@@ -223,6 +258,11 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--fond-btn-color);
+}
+
+/* Container-footer */
+.container-footer {
+    width: 1158px;
 }
 
 
@@ -263,6 +303,9 @@ background-color: var(--fond-btn-color);
 cursor: pointer;
 }
 
-    
+    /* Container-section-portfolio */
+    .container-section-portfolio {
+        width: 1158px;
+    }
 
 
