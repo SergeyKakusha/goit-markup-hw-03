@@ -145,23 +145,22 @@ gap: 40px;
 
 /*==================== Hero image============================*/
 
-.section-hero-container {
+.section-hero {
     background: var(--accent-color);
-    padding-top:  188px;
-    padding-bottom: 292px;
-    padding-left: 331px;
-    padding-right: 331px;
-    display: flex;
+    
+} 
+.hero-h {
+    display: inline-block;
     flex-wrap: wrap;
+    
+
+    
     margin-left: auto;
     margin-right: auto;
-    width: 1158px;
+    width: 496px;
+}
+
     
-    
-} 
-.section-hero {
-    background: var(--accent-color) ;
-} 
 
 
 
@@ -220,40 +219,32 @@ letter-spacing: 0.02em;
 color: var(--text-color);
 }
 
-/* Container-features */
+/* container-section-1 */
 
-.container-1 {
-    width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-   
-
-}
-
-.flex-container {
+.flex-container-1 {
+    padding: 0;
+    margin: 0;
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
+    margin-left: -24px;
     margin-top: 111px;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 120px;
-    
-
 }
-.flex-items {
-    display: flex;
-    flex-wrap: wrap;
+
+.flex-container-1 > .flex-items-1 {
+    flex-basis: calc(100% / 4)-24px;
+    margin-left: 24px;
+}
+
+.flex-h-1 {
+display: flex;
+margin-bottom: 8px;
+margin-left: 0;
+}
+.distinctive-features-item {
     width: 264px;
-    gap: 24px;
-    margin-top: 72px;
-    flex-wrap: wrap;
-
 }
-
-
-
-
-
 /*================== Section 2=============================== */
 
 .our-work-header {
@@ -263,27 +254,22 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--accent-color);
-background-color: var(--fond-btn-color);
+
 }
 
-.container-2 {
-  
-   width: 1158px;
-   margin-left: auto;
-   margin-right: auto;
-   
+/* container-section-2 */
+.flex-h-2 {
+    margin-left: auto;
+    margin-right: auto;
 }
-.box {
+.flex-container-2 {
+    margin-top: 72px;
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
-}
-
-.flex-items-work {
-    display: flex;
-    flex-direction: row;
-    
     margin-bottom: 100px;
 }
+
 
 /*===================Section-3===================================  */
 .our-team {
@@ -300,13 +286,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--accent-color);
-margin-bottom: 72px;
-margin-top: 120px;
-margin-left: auto;
-margin-right: auto;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
+
 }
 
 .team-member-name {
@@ -318,47 +298,40 @@ color: var(--accent-color);
 }
 
 .our-team-text {
-
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--text-color);
 }
 
-.container-3 {
-    width: 1158px;
-    height: 732px;
+/* container-section-3 */
+.flex-h-3 {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 120px;
 }
-.box-2 {
+
+.flex-container-3 {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-   
-}
-.flex-item-our-team {
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-top: 72px;
+    margin-bottom: 120px;
     gap: 24px;
-    margin-top: 232px;
-    width: 264px;
-}
-.flex-01 {
-    display: flex; 
-    flex-direction: row;
-    padding-left: 16px;
-    padding-right: 16px;
-    
-    
     
 }
+.flex-items > .flex-h3-3 {
+    
+    flex-wrap: wrap;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
 
-
-
-/*============================================ Footer================================= */
+/*==============Footer================================= */
 
 .logo-type-footer {
 font-family: 'Raleway', sans-serif;
@@ -389,6 +362,25 @@ color: var(--fond-btn-color);
 /* Container-footer */
 .container-footer {
     width: 1158px;
+}
+/* container-Footer */
+.logo-block {
+    margin-left: 0;
+    margin-top: 100px;
+    margin-bottom: 188px;
+
+}
+
+.block-footer {
+    display: inline-block;
+    width: 264px;
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-left: 0;
+}
+.paragraph {
+    margin-top: 16px;
 }
 
 
@@ -429,9 +421,38 @@ background-color: var(--fond-btn-color);
 cursor: pointer;
 }
 
-    /* Container-section-portfolio */
-    .container-section-portfolio {
-        width: 1158px;
-    }
+  .flex-portfolio {
+    display: inline-block;
+    display: flex;
+    gap: 24px;
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 96px;
+    margin-bottom: 72px;
+
+  }
+ .flex-portfolio .flex-list {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+ } 
+
+.flex-container-potfolio {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+ 
+
+
+.flex-container-potfolio > .flex-items-portfolio {
+    flex-basis: calc(100% / 4)-24px;
+    margin-left: 24px;
+}
 
 
