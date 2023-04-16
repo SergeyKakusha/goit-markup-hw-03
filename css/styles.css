@@ -443,17 +443,25 @@ background-color: var(--fond-btn-color);
 cursor: pointer;
 }
 /* Portfoli-container */
+.section-portfolio-container {
+    border: 1px solid #e7e9fc;
+}
+
 
 .section-portfolio {
-    padding: 96px 0 120px;
+   padding-top: 96px;
+   padding-bottom: 120px;
+
 }
-.portfolio-btn {
-   display: block;
+.flex-btn {
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 24px;
-    margin-left: 271px;
-    margin-right: auto;
     margin-bottom: 72px;
+}
+
+.portfolio-btn {
     padding: 12PX 24px;
     border-radius: 4px;   
 }
