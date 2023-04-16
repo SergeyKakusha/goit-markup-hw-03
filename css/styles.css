@@ -145,7 +145,35 @@ gap: 40px;
 
 
 
-/*=================== Hero-image-section-1 ============================*/
+/*=================== Hero-section-1 ============================*/
+    
+    .main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--fond-color);
+    text-align: center;
+    }
+    
+    .modal-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--fond-color);
+    background: var(--logo-btn-color);
+    cursor: pointer;
+    }
+    
+    .modal-btn:hover,
+    .modal-btn:focus {
+    background: var(--btn-color);
+    color: var(--fond-color);
+    }
+
+
+
 /* Container-hero */
 
 
@@ -175,31 +203,6 @@ gap: 40px;
 }
     
 
-.main-title {
-font-size: 56px;
-line-height: 1.07;
-letter-spacing: 0.02em;
-color: var(--fond-color);
-text-align: center;
-}
-
-.modal-btn {
-font-family: 'Roboto', sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: var(--fond-color);
-background: var(--logo-btn-color);
-cursor: pointer;
-}
-
-.modal-btn:hover,
-.modal-btn:focus {
-background: var(--btn-color);
-color: var(--fond-color);
-}
-
 /*=================== Section 2=================================== */
 
 .distinctive-features-header {
@@ -218,14 +221,12 @@ letter-spacing: 0.02em;
 color: var(--text-color);
 }
 
-/* container-section-2 */
+/* Container-section-2 */
+
 .box-distinctive-features {
     margin-top: 0;
     padding: 120px 0;
-   
 }
-
-
 .flex-container-1 {
     padding-top: 111px;
    padding-bottom: 120px;
@@ -234,7 +235,6 @@ color: var(--text-color);
     flex-wrap: wrap;
     margin-left: -24px;
     gap: 24px;
-    
 }
 
 .flex-container-1 > .flex-items-1 {
@@ -267,15 +267,17 @@ color: var(--accent-color);
 }
 
 /* container-section-3*/
+
 .our-work {
-    margin-bottom: 0;
+    padding-bottom: 120px;
 }
-.flex-h-2 {
+
+.flex-h-work {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 72px;
 }
-.flex-container-2 {
+.flex-container-work {
     margin-top: 72px;
     display: flex;
     flex-wrap: wrap;
