@@ -114,7 +114,7 @@ color: var(--text-color);
     font-style: normal;
     margin-left: auto;
 }
-/* ------Header-container -------------*/
+/* ------ Header-container -------------*/
 .page-header-container {
     width: 1158px;
 }
@@ -150,7 +150,7 @@ gap: 40px;
   
 
 
-/*==================== Hero-image-section-1 ============================*/
+/*=================== Hero-image-section-1 ============================*/
 /* Container-hero */
 .section-hero-container {
     
@@ -243,6 +243,7 @@ color: var(--text-color);
     display: flex;
     flex-wrap: wrap;
     margin-left: -24px;
+    gap: 24px;
     
 }
 
