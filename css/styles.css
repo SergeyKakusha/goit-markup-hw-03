@@ -479,11 +479,12 @@ cursor: pointer;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
        
 }
 
 .flex-container-potfolio  {
-    
+    width: calc((100% - 48px) / 3);
 }
 
 
