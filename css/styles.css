@@ -253,6 +253,10 @@ margin-left: 0;
 .distinctive-features-item {
     width: 264px;
 }
+.distinctive-features-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 /*================== Section 2=============================== */
 
 .our-work-header {
@@ -281,7 +285,9 @@ color: var(--accent-color);
     padding-bottom: 100px;
     
 }
-
+.our-work-container {
+    padding-bottom: 120px; 
+}
 
 /*===================Section-3===================================  */
 .our-team {
@@ -324,6 +330,8 @@ color: var(--text-color);
 .our-team-container {
     
     height: 732px;
+    padding-top: 120px; 
+    padding-bottom: 120px;
 }
 .flex-h-3 {
     padding-top: 120px;
