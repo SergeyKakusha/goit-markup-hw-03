@@ -480,12 +480,13 @@ cursor: pointer;
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
+    
        
 }
 
-.flex-container-potfolio  {
+.flex-container-potfolio .flex-items-portfolio {
     width: calc((100% - 48px) / 3);
-}
+} 
 
 
 
