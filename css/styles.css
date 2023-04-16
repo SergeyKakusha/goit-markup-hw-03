@@ -135,9 +135,12 @@ gap: 40px;
 
   .page-nav {
     display: flex;
+    align-items: center;
   }
 
-
+.page-header-container {
+    border-bottom: 1px solid #e7e9fc
+}
   
 
 
