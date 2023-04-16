@@ -31,12 +31,10 @@
         cursor: pointer;
     }
     .container {
-        width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-left: auto;
-        margin-right: auto;
-      }
+        max-width: 1128px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
 
 
 body {
@@ -178,8 +176,6 @@ gap: 40px;
     margin-right: auto;
     margin-top: 48px;
     height: 56px;
-    
-    
 }
     
 
@@ -257,7 +253,7 @@ margin-left: 0;
 .distinctive-features-item {
     width: 264px;
 }
-.distinctive-features-container {
+.distinctive-features {
     padding-top: 120px;
     padding-bottom: 120px;
 }
