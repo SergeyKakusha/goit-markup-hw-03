@@ -378,7 +378,7 @@ text-transform: uppercase;
 color: var(--logo-btn-color);
 }
 
-/* colorr-footer-logo */
+
 .colorr-footer {
 color: var(--fond-btn-color);
 }
@@ -397,12 +397,14 @@ color: var(--fond-btn-color);
 /* Container-footer */
 .footer {
   height: 312px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-container {
     height: 312px;
     
 }
-/* container-Footer */
+
 .logo-block {
     margin-left: 0;
     margin-top: 100px;
