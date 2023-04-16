@@ -227,11 +227,10 @@ color: var(--text-color);
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    
     gap: 24px;
 }
 
-.flex-container-1 > .flex-items-1 {
+.flex-container-1 {
     flex-basis: calc((100% - 72px) / 4)
 }
 
