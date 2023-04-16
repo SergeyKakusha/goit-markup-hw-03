@@ -173,17 +173,15 @@ gap: 40px;
 } 
 
 .modal-btn {
-    display: flex;
-    align-items: stretch;
+    display: block;
     border: none;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding: 16px 32px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 48px;
     height: 56px;
+    min-width: 169px;
+    border-radius: 10px;
 }
     
 
@@ -465,20 +463,20 @@ cursor: pointer;
     padding-top: 96px; 
     padding-bottom: 120px;
 }
-.portfolio-btn-flex .flex-btn {
-    display: flex;
+.portfolio-btn {
+   display: block;
     flex-wrap: wrap;
     gap: 24px;
     margin-left: 271px;
     margin-right: auto;
     margin-bottom: 72px;
+    padding: 12PX 24px;
+    border-radius: 10px;
    
    
 }
 
-.portfolio-btn {
-    padding: 12PX 24px;
-}
+
 
 
 .section-portfolio-container {
