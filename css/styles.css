@@ -444,7 +444,7 @@ background-color: var(--fond-btn-color);
 cursor: pointer;
 }
 /* Portfoli-container */
-.portfolio-section {
+.section-portfolio-container {
     border: 1px solid var(--border-color);
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -484,7 +484,7 @@ cursor: pointer;
        
 }
 
-.flex-items-portfolio {
+.flex-container-potfolio .flex-items-portfolio {
     width: calc((100% - 48px) / 3);
 } 
 
