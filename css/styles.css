@@ -115,6 +115,10 @@ color: var(--text-color);
     margin-left: auto;
 }
 /* ------Header-container -------------*/
+.page-header-container {
+    width: 1158px;
+}
+
 .contact {
 display: flex;
 padding-top: 24px;
@@ -132,6 +136,10 @@ gap: 40px;
   }
 
   .page-nav {
+    display: flex;
+    align-items: center;
+  }
+  .addressa {
     display: flex;
     align-items: center;
   }
