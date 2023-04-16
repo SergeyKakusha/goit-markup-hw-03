@@ -176,7 +176,6 @@ gap: 40px;
 
 /* Container-hero */
 
-
 .hero-h {
     display: flex;
     flex-wrap: wrap;
@@ -223,23 +222,17 @@ color: var(--text-color);
 
 /* Container-section-2 */
 
-.box-distinctive-features {
-    margin-top: 0;
-    padding: 120px 0;
-}
 .flex-container-1 {
     padding-top: 111px;
-   padding-bottom: 120px;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    margin-left: -24px;
+    
     gap: 24px;
 }
 
 .flex-container-1 > .flex-items-1 {
-    flex-basis: calc(100% / 4)-24px;
-    margin-left: 24px;
+    flex-basis: calc((100% - 72px) / 4)
 }
 
 .flex-h-1 {
