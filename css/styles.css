@@ -439,7 +439,10 @@ cursor: pointer;
 }
 /* Portfoli-container */
 
-
+.section-portfolio-container {
+    padding-top: 96px; 
+    padding-bottom: 120px;
+}
 .portfolio-btn-flex .flex-btn {
     display: flex;
     flex-wrap: wrap;
@@ -447,7 +450,7 @@ cursor: pointer;
     margin-left: 271px;
     margin-right: auto;
     margin-bottom: 72px;
-    margin-top: 96px;
+   
    
 }
 
