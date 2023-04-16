@@ -276,6 +276,7 @@ color: var(--accent-color);
 .flex-h-2 {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 72px;
 }
 .flex-container-2 {
     margin-top: 72px;
@@ -286,7 +287,6 @@ color: var(--accent-color);
     
 }
 .our-work-container {
-    padding-top: 120px;
     padding-bottom: 120px;
 }
 
