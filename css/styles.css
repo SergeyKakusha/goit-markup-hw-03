@@ -443,13 +443,16 @@ cursor: pointer;
 .portfolio-btn-flex .flex-btn {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     gap: 24px;
     margin-left: 271px;
     margin-right: auto;
     margin-bottom: 72px;
     margin-top: 96px;
    
+}
+
+.portfolio-btn {
+    padding: 12PX 24px;
 }
 
 
@@ -463,11 +466,11 @@ cursor: pointer;
     display: flex;
     flex-wrap: wrap;
     margin-left: -24px;
-    gap: 24px;
+    
 }
 
 .flex-container-potfolio .flex-items-portfolio {
-flex-basis: calc(100%/3)-24px;
+flex-basis: calc(100%/2)-24px;
 margin-left: 24px;
 
 }
