@@ -444,7 +444,7 @@ background-color: var(--fond-btn-color);
 cursor: pointer;
 }
 /* Portfoli-container */
-.section-portfolio-container {
+.portfolio-section {
     border: 1px solid var(--border-color);
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
