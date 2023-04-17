@@ -398,12 +398,10 @@ color: var(--fond-btn-color);
 
 
 
-
-.block-footer {
-    width: 264px;
-    padding-top: 100px;
+.footer {
+    padding: 100px 0;
 }
-.paragraph {padding-top: 16px;}
+
 
 .logo-type-footer {
     display: inline-block;
@@ -411,6 +409,7 @@ color: var(--fond-btn-color);
 }
 .paragraph {
     max-width: 264px;
+    padding-top: 16px;
 }
 
 /*==================================== Portfolio========================== */
