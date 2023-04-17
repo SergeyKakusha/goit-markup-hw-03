@@ -482,12 +482,8 @@ cursor: pointer;
     width: calc((100% - 48px) / 3);
  }
 
-
-
 .post {
-    
     max-width: 100%;
-   
 }
 
 .post-ht {
@@ -496,11 +492,7 @@ cursor: pointer;
     border-top: none;
 }
 
-
-
-
 .post-heading {
-    
     margin-bottom: 8px;
 }
 
