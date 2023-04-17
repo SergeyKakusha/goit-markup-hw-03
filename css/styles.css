@@ -390,6 +390,7 @@ color: var(--fond-btn-color);
 }
 .footer-container {
     height: 312px;
+    background-color: crimson;
     
 }
 
@@ -431,6 +432,7 @@ color: var(--text-color);
 .portfolio-btn:focus {
 background: var(--btn-color);
 color: var(--fond-color);
+border: 1px solid transparent;
 }
 
 .portfolio-btn {
@@ -481,12 +483,13 @@ cursor: pointer;
     gap: 24px;
     row-gap: 48px;
     
+    
        
 }
 
- .flex-items-portfolio {
+.flex-container-potfolio .flex-items-portfolio {
     width: calc((100% - 48px) / 3);
-} 
+ }
 
 
 
