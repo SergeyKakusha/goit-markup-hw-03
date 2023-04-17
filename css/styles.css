@@ -486,8 +486,7 @@ cursor: pointer;
     
        
 }
-
-.flex-container-potfolio .flex-items-portfolio {
+.flex-items-portfolio {
     width: calc((100% - 48px) / 3);
  }
 
