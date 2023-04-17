@@ -446,13 +446,7 @@ background-color: var(--fond-btn-color);
 cursor: pointer;
 }
 /* Portfoli-container */
-.section-portfolio-container {
-    border: 1px solid var(--border-color);
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    
-}
+
 
 
 .section-portfolio {
@@ -496,6 +490,9 @@ cursor: pointer;
     
     max-width: 100%;
     background-color: #F4F4FD;
+    
+    border: 1px solid #e7e9fc;
+    border-top: none;
     
 }
 .post-thumb {
