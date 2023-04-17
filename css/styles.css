@@ -329,7 +329,7 @@ color: var(--text-color);
 
 
 
-.flex-container-3 { 
+.flex-container-t { 
 
 display: flex;
 align-items: center;
@@ -337,7 +337,7 @@ margin-bottom: 120px;
 gap: 24px;
 }
 
-.flex-container-3 .flex-items-3 .group-h {
+.flex-container-t .flex-items-t .group-h {
     display: flex;
     flex-wrap: wrap;
     padding-left: 49px;
@@ -347,7 +347,7 @@ gap: 24px;
 }
 
 
-.flex-items-3 {
+.flex-items-t {
     border-radius: 0px 0px 4px 4px;
 }
 .post-s-4 {
@@ -360,7 +360,7 @@ gap: 24px;
  .our-team-text {
     text-align: center;
  }
- .flex-h-3 {
+ .flex-h-t {
     margin-bottom: 72px;
  }
 
@@ -395,14 +395,9 @@ color: var(--fond-btn-color);
 
 /* Container-footer */
 
-
-
-
 .footer {
     padding: 100px 0;
 }
-
-
 .logo-type-footer {
     display: inline-block;
     margin-bottom: 16px; 
