@@ -232,7 +232,7 @@ color: var(--text-color);
 }
 
 .flex-container-1 {
-    flex-basis: calc((100% - 72px) / 4)
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .flex-h-1 {
@@ -285,7 +285,8 @@ color: var(--accent-color);
 /*===================Section-4===================================  */
 .our-team {
 background-color: var(--fond-btn-color);
-height: 732px;
+
+padding: 120px 0;
 
 }
 .img {
@@ -308,6 +309,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--accent-color);
+
 }
 
 .our-team-text {
@@ -319,17 +321,12 @@ color: var(--text-color);
 
 /* container-section-4 */
 
+.our-team {
+    padding: 120px 0;
+}
 
-.our-team-container {
-    
-    height: 732px;
-    padding-top: 120px; 
-    padding-bottom: 120px;
-}
-.flex-h-3 {
-    padding-top: 120px;
-    padding-bottom: 72px;
-}
+
+
 
 
 .flex-container-3 { 
@@ -348,10 +345,21 @@ gap: 24px;
     padding-top: 32px;
     padding-bottom: 32px;
 }
-.our-team-text {
-    padding-top: 8px;
+
+
+.flex-items-3 {
+    border-radius: 0px 0px 4px 4px;
 }
- 
+.post-s-4 {
+    padding: 32px 16px;
+}
+.team-member-name {
+    text-align: center;
+    margin-bottom: 8px;
+}
+ .our-team-text {
+    text-align: center;
+ }
 
 
 /*==============Footer================================= */
