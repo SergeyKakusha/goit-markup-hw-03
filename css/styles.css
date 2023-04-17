@@ -477,8 +477,6 @@ cursor: pointer;
     gap: 24px;
     row-gap: 48px;
     
-    
-       
 }
 .flex-items-portfolio {
     width: calc((100% - 48px) / 3);
