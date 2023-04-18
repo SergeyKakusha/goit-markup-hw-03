@@ -352,8 +352,10 @@ gap: 24px;
     padding-top: 32px;
     padding-bottom: 32px;
 }
-
-
+/* Section-4  radiuі задан в д/з */
+.flex-items-t {
+    border-radius: 0px 0px 4px 4px;
+}
 
 .post-s-t {
     padding: 32px 16px;
